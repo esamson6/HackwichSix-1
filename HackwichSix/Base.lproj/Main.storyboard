@@ -59,10 +59,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="o4F-hb-fnB" id="JYP-fI-n3q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-304.34782608695656" y="242.41071428571428"/>
+            <point key="canvasLocation" x="-710" y="242"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="VsR-WX-dqN">
@@ -86,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zHd-BF-dWh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="449" y="242"/>
+            <point key="canvasLocation" x="64" y="242"/>
         </scene>
     </scenes>
     <resources>
